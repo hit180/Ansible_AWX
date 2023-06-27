@@ -10,8 +10,8 @@
      - name: Interface Configuration
        cisco.ios.ios_interfaces:
           config:
-             - name: GigabitEthernet2
-               description: Configured and Merged by Ansible Network
+             - name: GigabitEthernet3
+               description: Changed by Guy
                enabled: true
                speed : 1000
                mtu: 9000
