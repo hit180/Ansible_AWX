@@ -11,7 +11,7 @@
       - name: Example ntp play auth
         cisco.ios.ios_ntp:
           key_id: 10
-          auth_key: 15435A030726242723273C21181319000A
+          auth_key: 15435A030726242723273C21181319111A
           auth: true
           state: present
 
