@@ -1,15 +1,19 @@
 ---
 
+- name: Cisco ios config examples
+  gather_facts: False
+  hosts: routers
+  connection: ansible.netcommon.network_cli
 
-
-
-# Set NTP authentication
-- name: Example ntp play auth
-  cisco.ios.ios_ntp:
-    key_id: 10
-    auth_key: 15435A030726242723273C21181319000A
-    auth: true
-    state: present
+  tasks:
+      
+      # Set NTP authentication
+      - name: Example ntp play auth
+        cisco.ios.ios_ntp:
+          key_id: 10
+          auth_key: 15435A030726242723273C21181319000A
+          auth: true
+          state: present
 
 
 
