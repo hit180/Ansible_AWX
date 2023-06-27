@@ -1,6 +1,6 @@
 ---
 - name: IOS Static Route Demo
-  hosts: router
+  hosts: routers
   tasks:
     ################### IP Config Merged ##############
     - name: Config Static Route1
